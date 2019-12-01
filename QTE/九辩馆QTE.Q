@@ -1,0 +1,71 @@
+[General]
+SyntaxVersion=2
+BeginHotkey=121
+BeginHotkeyMod=0
+PauseHotkey=0
+PauseHotkeyMod=0
+StopHotkey=123
+StopHotkeyMod=0
+RunOnce=0
+EnableWindow=
+MacroID=d2c38750-a8f4-492e-bf06-a81c3e936e53
+Description=QTE用对比图片法
+Enable=0
+AutoRun=0
+[Repeat]
+Type=1
+Number=1
+[SetupUI]
+Type=2
+QUI=
+[Relative]
+SetupOCXFile=
+[Comment]
+
+[Attachment]
+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
+
+
+[Script]
+
+SetSimMode 2
+
+jw1=0
+jw2=0
+jw3=0
+jw4=0
+
+
+jw0=Plugin.GetSysInfo.GetTime
+FindPic 944,355,1757,849,"Attachment:\1号键位位图.bmp",0.9,intA,intB
+FindPic 944,355,1757,849,"Attachment:\2号键位位图.bmp",0.9,intC,intD
+FindPic 944,355,1757,849,"Attachment:\3号键位位图.bmp",0.9,intE,intF
+FindPic 944,355,1757,849,"Attachment:\4号键位位图.bmp",0.9,intG,intH
+
+
+
+If intA > 0 And jw0 > jw1 + 300 Then 
+    SetSimMode 2
+    KeyPress 49, 1
+    jw1 = Plugin.GetSysInfo.GetTime
+End If
+
+If intC > 0 And jw0 > jw2 + 300 Then 
+    SetSimMode 2
+    KeyPress 50, 1
+    jw2 = Plugin.GetSysInfo.GetTime
+End If
+
+
+If intE > 0 And jw0 > jw3 + 300 Then 
+    SetSimMode 2
+    KeyPress 51, 1
+    jw3 = Plugin.GetSysInfo.GetTime
+End If
+
+
+If intG > 0 And jw0 > jw4 + 300 Then 
+    SetSimMode 2
+    KeyPress 52, 1
+    jw4 = Plugin.GetSysInfo.GetTime
+End If
