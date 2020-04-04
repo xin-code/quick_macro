@@ -36,21 +36,21 @@ SetupOCXFile=
 //③手动操作：
 //★需要号主成为擂主
 SetSimMode 2
-MoveTo 1530, 584//选中右边窗口
-LeftClick 10
+MoveTo 1181, 476//选中右边窗口
+LeftClick 1
+KeyPress "F", 1//经验宝宝“F”键选中，出现对话框
 Delay 100
-KeyPress "F", 5//经验宝宝“F”键选中，出现对话框
-Delay 200
 MoveTo 1530, 584//开始挑战
-LeftClick 20//挑战申请
 Delay 100
-MoveTo 487, 195//左边号主接受打擂
-LeftClick 10
-Delay 5100//切磋时间（系统倒计时）
+LeftClick 10//挑战申请
+Delay 100
+MoveTo 479, 216//左边号主接受打擂
+LeftClick 20
+Delay 100//切磋时间（系统倒计时）
 MoveTo 697, 206//选择经验宝宝
-LeftClick 10
+LeftClick 1
 KeyPress "1", 1//“1”号键位击杀经验宝宝
-Delay 1000
+Delay 100
 //成就速度：
 //连胜80次即可完成成就：
 /*

@@ -1,0 +1,51 @@
+[General]
+SyntaxVersion=2
+BeginHotkey=121
+BeginHotkeyMod=0
+PauseHotkey=0
+PauseHotkeyMod=0
+StopHotkey=123
+StopHotkeyMod=0
+RunOnce=1
+EnableWindow=
+MacroID=9a94c121-1cdf-4659-aec3-fa7707dcf14b
+Description=ÎÒµÄ½Å±¾1
+Enable=1
+AutoRun=0
+[Repeat]
+Type=1
+Number=1
+[SetupUI]
+Type=2
+QUI=
+[Relative]
+SetupOCXFile=
+[Comment]
+
+[Script]
+SetSimMode 2
+MoveTo 920, 124
+LeftClick 1
+Delay 200
+MoveTo 1487, 523
+LeftClick 5
+Delay 2000
+
+
+
+MoveTo 132, 718
+LeftClick 1
+Delay 100
+MoveTo 530, 791
+RightClick 20
+Delay 100
+
+
+
+
+MoveTo 1740, 771
+LeftClick 1
+Delay 100
+MoveTo 1375, 806
+RightClick 20
+Delay 100

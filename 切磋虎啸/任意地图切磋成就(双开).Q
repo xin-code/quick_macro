@@ -36,21 +36,26 @@ SetupOCXFile=
 SetSimMode 2
 MoveTo 737, 188//选中经验宝宝焦点
 LeftClick 1
-Delay 10
-MoveTo 289, 72//选中焦点头像
+Delay 100
+MoveTo 345, 82//选中焦点头像
+Delay 100
 RightClick 1
-RightClick 1
-MoveTo 363, 160//选中切磋按钮
+Delay 100
+MoveTo 368, 178//选中切磋按钮
 LeftClick 5
 Delay 200
 MoveTo 1403, 284//接受切磋
 LeftClick 20
-Delay 5100//切磋系统倒计时5秒开始
+Delay 5300//切磋系统倒计时5秒开始
 MoveTo 737, 188//选中焦点
 LeftClick 1
 Delay 100
 KeyPress "1", 1//攻击
-Delay 1000
+Delay 1500
+MoveTo 70, 930
+Delay 100
+LeftClick 2
+Delay 100
 //洛阳擂台累积切磋次数 ★
 //成就速度：
 //100分钟

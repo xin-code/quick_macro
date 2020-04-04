@@ -10,7 +10,7 @@ RunOnce=1
 EnableWindow=
 MacroID=53a79d8c-efa9-4c86-b1d2-e84c39d55632
 Description=绿林
-Enable=0
+Enable=1
 AutoRun=0
 [Repeat]
 Type=1
@@ -35,28 +35,48 @@ SetupOCXFile=
 SetSimMode 2
 MoveTo 728,193//选中号主窗口焦点位置的经验宝宝
 LeftClick 1
-KeyPress "1", 1//1技能秒伤技能
-Delay 400 //根据技能 是否能秒死设置Delay延迟时间。若直接秒杀则低，若需读条适当调大
+KeyPress "R", 1//1技能秒伤技能
+Delay 100//根据技能 是否能秒死设置Delay延迟时间。若直接秒杀则低，若需读条适当调大
+KeyPress "R", 1//1技能秒伤技能
+Delay 800 //根据技能 是否能秒死设置Delay延迟时间。若直接秒杀则低，若需读条适当调大
 MoveTo 516, 521//以防号主本身被打死回营地，执行回营地操作
 LeftClick 1
-Delay 380
+Delay 100
+MoveTo 56, 936//修装备
+LeftClick 1
+Delay 100
 MoveTo 1485, 518//经验宝宝回营地
 Delay 100
 LeftClick 10
 Delay 100
 MoveTo 993, 146//消除无敌buff
+Delay 50
+RightClick 10
 Delay 100
-RightClick 20
+RightClick 10
+Delay 10
+RightClick 18
+Delay 50
+RightClick 10
+Delay 100
+RightClick 1
+Delay 10
 RightClick 15
-RightClick 30
 Delay 100
+RightClick 5
+Delay 50
+RightClick 10
+Delay 100
+RightClick 11
+Delay 10
 //成就速度：
 //大约2秒一人头
 //根据秒伤技能不同时间不同
 //完成成就：
 /*
 【江湖！开始】【江湖！十人斩】【江湖！百人斩】【江湖！斩五百】【江湖！千人斩】【江湖！斩五千】【江湖！万人斩】
-【横行天下】绿林等级达到五级
+【横行天下】绿林等级达到五级 
+【空中浩劫】【天罗地网】战斗轻功
 *//*
 开启绿林身份，制作“硝烟弥漫”（CD：2MIN），获得30点经验。 
 “硝烟弥漫”命中敌对阵营跑商人士或开启镖师身份及阵营模式的人，均可获得30点经验 

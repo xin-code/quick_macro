@@ -44,27 +44,27 @@ FindPic 944,355,1757,849,"Attachment:\4�ż�λλͼ.bmp",0.9,intG,intH
 
 
 
-If intA > 0 And jw0 > jw1 + 300 Then 
+If intA > 0 And jw0 > jw1 + 650 Then 
     SetSimMode 2
     KeyPress 49, 1
     jw1 = Plugin.GetSysInfo.GetTime
 End If
 
-If intC > 0 And jw0 > jw2 + 300 Then 
+If intC > 0 And jw0 > jw2 + 650 Then 
     SetSimMode 2
     KeyPress 50, 1
     jw2 = Plugin.GetSysInfo.GetTime
 End If
 
 
-If intE > 0 And jw0 > jw3 + 300 Then 
+If intE > 0 And jw0 > jw3 + 650 Then 
     SetSimMode 2
     KeyPress 51, 1
     jw3 = Plugin.GetSysInfo.GetTime
 End If
 
 
-If intG > 0 And jw0 > jw4 + 300 Then 
+If intG > 0 And jw0 > jw4 + 650 Then 
     SetSimMode 2
     KeyPress 52, 1
     jw4 = Plugin.GetSysInfo.GetTime

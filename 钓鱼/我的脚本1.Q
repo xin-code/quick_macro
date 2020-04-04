@@ -8,8 +8,8 @@ StopHotkey=123
 StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
-MacroID=767cb4fa-3662-4720-a932-18094c6e99e5
-Description=大侠之路刷任务
+MacroID=fec423f6-44a6-42f6-bc93-42e612295f1b
+Description=苍山洱海
 Enable=0
 AutoRun=0
 [Repeat]
@@ -23,11 +23,23 @@ SetupOCXFile=
 [Comment]
 
 [Script]
-'==========以下是按键精灵录制的内容==========
-MoveTo 959, 696
-Delay 100
+//☆适用于win10☆（以1920*1080分辨率 电脑屏幕尺寸15.6英寸为基准）
+//游戏设置：
+//★把游戏所有同步设置关闭
+
+
+MoveTo 916,531
 LeftClick 1
-MoveTo 1041, 556
 Delay 100
+
+Rem 上钩
+//
+//灵蛇
+IfColor 886,131,"01E4E5", 0 Then
+
+MoveTo 994,530
 LeftClick 1
-'==========以上是按键精灵录制的内容==========
+Else 
+Goto 上钩
+End If
+
