@@ -9,7 +9,7 @@ StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
 MacroID=e56b3f97-d14b-4ee4-93e4-8f6f2f334bf2
-Description=隐藏BUFF搜索网站
+Description=搜索
 Enable=0
 AutoRun=0
 [Repeat]
@@ -26,8 +26,11 @@ SetupOCXFile=
 SetSimMode 2
 
 dim a
-//a=16606 高级马保护buff
-a=16797	//切换扭秧歌动作
+//a=101 //第一个BUFF
+//a=17156 //露园事
+//a=536 //NPC于乐
+
+a=17156 //露园事_CD_BUFF
 Rem 循环
 MoveTo 631,395
 KeyPress "BackSpace", 10

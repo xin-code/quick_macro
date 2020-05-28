@@ -28,20 +28,20 @@ SetupOCXFile=
 //★把游戏所有同步设置关闭
 
 
-MoveTo 928, 994
+MoveTo 930, 996
 LeftClick 1
 Delay 100
 
 Rem 上钩
 //
 //灵蛇
-IfColor 847,217,"C1C1CF",0 Then
+IfColor 847,199,"E3E3E7",0 Then
 
 //
 //九娄
 //IfColor 925,129 ,"01DDDF",0 Then
 
-MoveTo 964, 997
+MoveTo 965, 1000
 LeftClick 1
 Delay 2000
 Else 

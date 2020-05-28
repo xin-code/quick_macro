@@ -8,8 +8,8 @@ StopHotkey=123
 StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
-MacroID=fdc492cc-db75-423c-9c5f-0d8522359b11
-Description=F5
+MacroID=fd068ef9-64df-402b-8842-21a07dba4517
+Description=[Ì¤ÂíÑï¹­]
 Enable=0
 AutoRun=0
 [Repeat]
@@ -23,5 +23,8 @@ SetupOCXFile=
 [Comment]
 
 [Script]
-SetSimMode 2
-KeyPress "F5", 1
+SetSimMode 1
+MouseWheel 1
+Delay 1500
+KeyPress "2", 1
+Delay 100

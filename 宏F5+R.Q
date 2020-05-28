@@ -1,15 +1,15 @@
 [General]
 SyntaxVersion=2
-BeginHotkey=121
+BeginHotkey=52
 BeginHotkeyMod=0
 PauseHotkey=0
 PauseHotkeyMod=0
-StopHotkey=123
+StopHotkey=20
 StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
-MacroID=a112f1a2-5541-466f-b614-872787450a8e
-Description=ÎÒµÄ½Å±¾1
+MacroID=01845e23-b27a-459f-9f7a-fd35daba400c
+Description=ºêF5+R
 Enable=0
 AutoRun=0
 [Repeat]
@@ -23,10 +23,8 @@ SetupOCXFile=
 [Comment]
 
 [Script]
-SetSimMode 2
-MoveTo 1603, 994
-LeftClick 1
-Delay 100
+SetSimMode 1
 KeyPress "R", 1
-KeyPress "R", 1
-
+//KeyPress "E", 1
+//KeyPress "F5", 1
+//

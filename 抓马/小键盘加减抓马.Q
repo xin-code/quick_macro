@@ -8,9 +8,9 @@ StopHotkey=123
 StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
-MacroID=8f6cf256-e8d9-4207-abbd-e9467c0406d7
-Description=我的脚本1
-Enable=0
+MacroID=1c9d9d40-89f4-43ef-b842-678e251f2885
+Description=抓马
+Enable=1
 AutoRun=0
 [Repeat]
 Type=1
@@ -24,13 +24,5 @@ SetupOCXFile=
 
 [Script]
 SetSimMode 2
-Delay 100
-MoveTo 85, 304
-RightClick 1
-Delay 100
-MoveTo 116, 453
-LeftClick 1
-Delay 100
-MoveTo 190, 461
-LeftClick 1
-Delay 100
+KeyPress "Num -", 1
+KeyPress "Num +", 1
